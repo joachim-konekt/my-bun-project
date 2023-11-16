@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Router } from "react-router";
 import "./App.css";
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           Eddddddddsvddvit this andclear save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">click here</p>
+      <button>click</button>
     </>
   );
 }
